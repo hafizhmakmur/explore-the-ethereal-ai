@@ -1,3 +1,4 @@
 name: Hafizh Afkar Makmur, Fluffy Bunny
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+encoding: utf-8
