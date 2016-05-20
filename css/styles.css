@@ -544,7 +544,7 @@ Features-stack
     left: 50%; }
   .features-extra .inertial-wrap {
     position: absolute;
-    width: 700px;
+    width: 600px;
     height: 500px;
     background: url("../img/inertial.PNG") no-repeat center center;
     top: 114px;
