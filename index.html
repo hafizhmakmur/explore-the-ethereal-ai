@@ -37,6 +37,7 @@
                             <ul class="primary-nav">
                                 <li><a href="#Whatis">What is it?</a></li>
                                 <li><a href="#Tools">Tools</a></li>
+                                <li><a href="#Workings">How does it works?</a></li>
                                 <li><a href="#Procons">Advantages & Drawbacks</a></li>
                                 <li><a href="#FurtherDevelopment">Further Development</a></li>
                                 <li><a href="#Contacts">Contact</a></li> 
@@ -94,6 +95,67 @@
             </div>
         </div>
     </section> 
+    <section class="features section-padding" id="Tools">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-md-offset-7">
+                    <div class="feature-list">
+                        <h3>Tools needed for the system</h3>
+                        <p>Some tools is needed for this system to work, which is : </p>
+                        <ul class="features-stack">
+                            <li class="feature-item">
+                                <div class="feature-icon">
+                                    <span data-icon="&#xe03e;" class="icon"></span>
+                                </div>
+                                <div class="feature-content">
+                                    <h5>Intel® IoT Developer Kit </h5>
+                                    <p>The Intel® IoT Developer Kit is a solution comprised of the following software and hardware options that empower you to create innovative IoT projects. You'll find everything you need to get started: a development board and starter kit, Intel® XDK IoT Edition, Intel® System Studio IoT Edition, Arduino* IDEs, a set of libraries, IoT Cloud Analytics, and more.</p>
+                                </div>
+                            </li>
+                            <li class="feature-item">
+                                <div class="feature-icon">
+                                    <span data-icon="&#xe03c;" class="icon"></span>
+                                </div>
+                                <div class="feature-content">
+                                    <h5>MPU9150 Inertial Measurement Unit</h5>
+                                    <p>An extension for Intel Galileo. This tools contains accelerometer and gyroscope to track acceleration and angle deviation to correctly decude your position</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="device-showcase">
+            <div class="devices">
+                <div class="kit-wrap wp1"></div>
+                <div class="inertial-wrap wp2"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features-extra section-padding" id="Workings">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="feature-list">
+                        <h3>How does it work?</h3>
+                        <p>INSs contain Inertial Measurement Units (IMUs) which have angular and linear accelerometers (for changes in position); some IMUs include a gyroscopic element (for maintaining an absolute angular reference).<br/>
+
+                        Angular accelerometers measure how the vehicle is rotating in space. Generally, there is at least one sensor for each of the three axes: pitch (nose up and down), yaw (nose left and right) and roll (clockwise or counter-clockwise from the cockpit).<br/>
+
+                        Linear accelerometers measure non-gravitational accelerations[8] of the vehicle. Since it can move in three axes (up & down, left & right, forward & back), there is a linear accelerometer for each axis.<br/>
+
+                        A computer continually calculates the vehicle's current position. First, for each of the six degrees of freedom (x,y,z and θx, θy and θz), it integrates over time the sensed acceleration, together with an estimate of gravity, to calculate the current velocity. Then it integrates the velocity to calculate the current position.<br/> </p>
+                        </p>
+                        <a href="#" class="btn btn-ghost btn-accent btn-small">What's INS?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="inertial-wrap wp3"></div>
+        <div class="responsive-feature-img"><img src="img/inertialplatform.gif" alt="responsive devices"></div>
+    </section>
       <section class="blog-intro section-padding" id="Procons">
         <div class="container">
             <div class="row">
